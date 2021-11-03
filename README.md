@@ -12,7 +12,19 @@ In this paper, we proposed a family of recurrent neural networks(RNNs), namely S
 ## Installation
 1. Clone repo
 ```
-git clone --recursive 
+git clone --recursive https://github.com/Zhang-VISLab/SBO-RNN-Reformulating-Recurrent-Neural-Networks-via-Stochastic-Bilevel-Optimization.git
+```
+
+2. Working Environment
+```
+conda create -n sbornn pytorch
+conda activate sbornn
+pip install -r requirements.txt
+```
+
+3. Training
+```
+CUDA_VISIBLE_DEVICES=0 python train.py --cuda
 ```
 
 ## Visualize the test results

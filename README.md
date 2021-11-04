@@ -22,7 +22,13 @@ conda activate sbornn
 pip install -r requirements.txt
 ```
 
-3. Training
+3. Setting
+```
+# Checking the setting in main function before runing the code
+# the result will be saved under <path>
+```
+
+4. Training
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py --cuda
 ```

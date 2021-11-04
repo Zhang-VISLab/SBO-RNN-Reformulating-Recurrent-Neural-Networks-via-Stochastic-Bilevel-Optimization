@@ -37,7 +37,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --cuda
 5. Results
 ```
 cd <path>
-# dfhistory.cvs contains all training and test log
+# dfhistory.cvs contains all training and evaluation log
 # *.bin files are model parameters
 ```
 

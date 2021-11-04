@@ -25,7 +25,7 @@ pip install -r requirements.txt
 3. Setting
 ```
 # Checking the settings <params> in the main function before runing the code
-# define the path according your need and the result will be saved under <path>
+# Defining the path according your need and the result will be saved under <path>
 ```
 
 4. Training

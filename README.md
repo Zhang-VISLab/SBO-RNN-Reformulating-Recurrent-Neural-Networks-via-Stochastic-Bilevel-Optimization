@@ -9,7 +9,7 @@ In this paper, we proposed a family of recurrent neural networks(RNNs), namely S
 
 
 
-## Installation
+## Model Usage
 1. Clone repo
 ```
 git clone --recursive https://github.com/Zhang-VISLab/SBO-RNN-Reformulating-Recurrent-Neural-Networks-via-Stochastic-Bilevel-Optimization.git
@@ -41,5 +41,5 @@ cd <path>
 # *.bin files are model parameters
 ```
 
-## Visualize the test results
+## Visualization
 

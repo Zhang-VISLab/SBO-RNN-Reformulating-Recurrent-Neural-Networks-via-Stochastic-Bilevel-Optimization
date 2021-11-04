@@ -30,6 +30,7 @@ pip install -r requirements.txt
 
 4. Training
 ```
+cd src
 CUDA_VISIBLE_DEVICES=0 python train.py --cuda
 ```
 
